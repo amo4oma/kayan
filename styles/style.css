@@ -1,0 +1,168 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Fanii";
+  src: url(../Assests/Fanni.ttf) format("truetype");
+}
+
+.navbar {
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  -webkit-box-shadow: 0px 4px 30px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 30px -6px rgba(0, 0, 0, 0.75);
+}
+
+.navbar .nav-link {
+  color: #9b8a5d;
+}
+
+.navbar .navbar-brand img {
+  width: 180px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.banner {
+  padding-top: 50px;
+}
+
+.banner .mouse {
+  width: 50px;
+  height: 90px;
+  border: 3px solid #333;
+  border-radius: 60px;
+  position: relative;
+  left: 45%;
+}
+
+.banner .mouse::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #333;
+  border-radius: 50%;
+  opacity: 1;
+  animation: wheel 2s infinite;
+  -webkit-animation: wheel 2s infinite;
+}
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 60px;
+  }
+}
+
+@-webkit-keyframes wheel {
+  to {
+    opacity: 0;
+    top: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner .pin-spacer {
+    height: 100%;
+  }
+}
+
+.banner .animated-banner-row .text-col {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Oswald';
+  color: #575442;
+  text-align: center;
+}
+
+.banner .animated-banner-row .text-col .wlecom p {
+  color: #030845;
+  font-size: 30px;
+}
+
+.banner .animated-banner-row .text-col .wlecom .box {
+  width: 80%;
+  height: 100px;
+  border: solid 5px #fb9300;
+  border-color: #010025 transparent transparent transparent;
+  border-radius: 70%/100px 100px 0 0;
+}
+
+.banner .animated-logo-div {
+  position: relative;
+  top: 100px;
+  -webkit-transition: all 100ms;
+  transition: all 100ms;
+}
+
+.banner .animated-logo-div img {
+  position: absolute;
+  width: 40%;
+  left: 0px;
+  top: 0px;
+}
+
+.banner .animated-logo-div-left {
+  position: relative;
+  top: 100px;
+  -webkit-transition: all 100ms;
+  transition: all 100ms;
+}
+
+.banner .animated-logo-div-left img {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 50%;
+}
+
+@media screen and (max-width: 500px) {
+  .banner .right-logo, .banner .left-logo {
+    width: 100% !important;
+  }
+}
+
+.banner .second-message {
+  display: none;
+}
+
+.banner .third-message {
+  display: none;
+  width: 55%;
+}
+
+#sec-2 .title {
+  font-family: 'Cairo', sans-serif;
+}
+
+#parallax {
+  height: 100vh;
+  background-image: url(../Assests/istockphoto-1179153745-612x612.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */
