@@ -25,6 +25,7 @@ tl.to('.third-message',5, {y:"30%",opacity:'1',display:"block"},"egh")
 tl.to('.third-message',5, { opacity:'0',display:"none"},"nine")
 tl.to('.right-logo',5, {scale: 1.5, opacity:'0',display:"none"},"h")
 tl.to('.left-logo',5, {scale:1.5, opacity:'0',display:"none"},"h")
+tl.to('.mouse',5, {scale:1.5, opacity:'0',display:"none"},"h")
 
 
  
