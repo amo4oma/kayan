@@ -160,11 +160,23 @@
 
 #sec-2 .icons {
   width: 200px;
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 #sec-2 .title {
   font-family: 'Cairo', sans-serif;
   margin-bottom: 90px;
+}
+
+#sec-2 .icons-title {
+  font-family: 'Oswald', sans-serif;
+  color: #333;
+  font-size: 20px;
+  line-height: 1;
+  margin-top: 1em;
+  font-weight: 600;
 }
 
 #parallax {

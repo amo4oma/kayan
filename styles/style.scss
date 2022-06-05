@@ -188,10 +188,20 @@ $font-main: "Fanni";
     padding-bottom: 150px;
     .icons{
         width: 200px;
+        height: 200px;
+        object-fit: contain;
     }
     .title {
         font-family: 'Cairo', sans-serif;
         margin-bottom: 90px;
+    }
+    .icons-title{
+        font-family:'Oswald', sans-serif;
+        color: #333;
+        font-size: 20px;
+        line-height: 1;
+        margin-top: 1em;
+        font-weight: 600;
     }
 }
 
